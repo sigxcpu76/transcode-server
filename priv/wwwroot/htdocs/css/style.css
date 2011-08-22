@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+DIV {
+	display: block;
+}
+
+body {
+	font: 62.5% "lucida grande", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #222 !important;
+	text-align: center;
+}
+
+ul.movies {
+	text-align: left;
+}
+
+ul.movies li {
+	list-style-type: none;
+	list-style-image: none;
+	vertical-align: middle;
+	min-width: 600px;
+}
+
+ul.movies li.movie_entry {
+	margin-top: 7px;
+	display: block;
+	border-bottom: 1px solid #ccc;
+	margin: 0 !important;
+	padding: 4px 30px 5px 10px;
+	color: #666;
+	position: relative;
+}
+
+ul.movies li.movie_entry.odd {
+	background-color: #edf3fe;
+}
+
+ul.movies li.movie_entry.even {
+	background-color: white;
+}
+
+ul.movies li.movie_entry div.title {
+	font-size: 1.5em;
+	font-weight: bold;
+	word-wrap: break-word;
+	overflow: hidden;
+	margin-bottom: 2px;
+	display: block;
+}
+
+ul.movies li.movie_entry div.description {
+}
+
+
+ul.movies li.movie_entry div.status {
+	float: right;
+	margin-top: -30px;
+	position: relative;
+	width: 120px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+ul.movies li.movie_entry div.status_light {
+	float: right;
+	margin-top: -30px;
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+}
+
+
+div.progressBar {
+	position: relative;
+	height: 16px;
+	width: 100px;
+	background-color: #600;
+}
+
+div.progressPercent {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #060;
+}
+
+div.progressText {
+	font-size: 12px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	color: white;
+}
+

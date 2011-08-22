@@ -1,0 +1,12 @@
+{application, transcode,
+ [
+  {description, "Transcode Server"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { transcode_app, []}},
+  {env, []}
+ ]}.
